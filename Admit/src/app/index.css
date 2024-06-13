@@ -1,7 +1,0 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
