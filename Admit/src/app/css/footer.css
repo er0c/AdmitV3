@@ -1,0 +1,36 @@
+.active img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 19px;
+  padding-left: 19px;
+  border-radius: 14px;
+  border: 3px solid black;
+  color: #000000;
+}
+
+.nav-link img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 19px;
+  padding-left: 19px;
+  border: 2px solid transparent;
+  filter: opacity(50%);
+}
+
+.nav-footer-items{
+  position: fixed;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 5.5px;
+  bottom: 0;
+  justify-content: space-around;
+  display: flex;
+  padding-left: 0%;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.nav-footer img{
+  width: 33px;
+  height: 33px;
+}

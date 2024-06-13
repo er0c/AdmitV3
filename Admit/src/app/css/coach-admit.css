@@ -1,0 +1,158 @@
+.coach-logo-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #000;
+    border-radius: 30px;
+    margin: auto;
+    width: 48%;
+    height: 33px;
+    background-color: #000000;
+}
+
+.coach-logo-button p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+}
+
+.coach-logo-button img {
+    height: 36px;
+    width: 36px;
+}
+
+.chatbox{
+    position: fixed;
+    margin-left: 10px;
+    bottom: 80px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.chatbox textarea{
+    height: 30px;
+    width: 95%;
+    font-size: 14px;
+    font-family: inherit;
+    border-color: #000000;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 40px;
+    resize: none;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.chatbox textarea::placeholder {
+    color: #B9B9B9;
+}
+
+.send-icon{
+    width: 25px;
+    height: 25px;
+    transform: translate(-140%);
+    filter: invert(62%) sepia(85%) saturate(409%) hue-rotate(102deg) brightness(91%) contrast(85%);
+}
+
+.send-icon.disabled {
+    filter: none;
+  }
+
+.chat-body{
+    margin-top: 15px;
+    overflow-y: scroll;
+    max-height: 450px;
+}
+
+@media (max-width: 768px){
+    .chat-body{
+        max-height: 680px;
+    }
+}
+
+@media (max-width: 700px){
+    .chat-body{
+        max-height: 530px;
+    }
+}
+
+@media (max-width: 410px){ 
+    .chat-body {
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 390px){ 
+    .chat-body {
+        max-height: 400px;
+    }
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.message{
+    margin-bottom: 20px;
+}
+
+.bot-message-container{
+    display: flex;
+    position: relative;
+}
+
+.bot-message-container img{
+    width: 24.59px;
+    height: 31px;
+}
+
+.custom-markdown{
+    padding: 0px;
+    margin: 0px;
+    white-space: wrap;
+}
+
+.bot-message{
+    background-color: #DEDEDE;
+    border-color: #FFFFFF;
+    font-size: 14px;
+    color: #000000;
+    white-space: pre-line;
+    padding: 0px 15px;
+    border-radius: 9px;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.user-message-container{
+    display: flex;
+    align-items: center;
+}
+
+.user-message-container img{
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+}
+
+.user-message{
+    background-color: #C8F6CC;
+    font-size: 14px;
+    color:#000000;
+    padding: 10px 15px;
+    border-radius: 9px;
+    margin-right: 10px;
+    margin-left: auto;
+    overflow-y: none;
+    word-wrap: break-word;
+    max-width: 80%;
+}

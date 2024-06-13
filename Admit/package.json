@@ -1,0 +1,31 @@
+{
+  "name": "admitainextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "ai": "^2.2.31",
+    "firebase": "^10.7.2",
+    "next": "14.0.4",
+    "openai": "^4.24.7",
+    "react": "^18",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18",
+    "react-firebase-hooks": "^5.1.1",
+    "react-markdown": "^9.0.1",
+    "react-spring-bottom-sheet": "^3.5.0-alpha.0",
+    "typescript": "^5.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
