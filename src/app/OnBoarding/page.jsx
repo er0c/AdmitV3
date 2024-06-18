@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useContext, useEffect } from 'react';
+import React, { userState} from 'react';
 import { auth, db } from "../../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { collection, addDoc } from "firebase/firestore";    
 import { doc, setDoc } from "firebase/firestore"; 
 
 const Page = () => {
